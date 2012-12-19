@@ -1,0 +1,12 @@
+<% people.sort {|x,y| x.surname <=> y.surname}.each_slice(4) do |row| %>
+  <div class="row-fluid hidden-phone center">
+    <% row.each do |person| %>
+      <div class="span3" itemscope itemtype="http://schema.org/Person">
+        <%= image_tag person.image, class: 'img-rounded', itemprop: 'image' %>
+        <h5 itemprop="name"><%= person.name %> <%= person.surname %></h5>
+        <span itemprop="jobTitle"><%= person.title %></span>
+      </div>
+    <% end %>
+  </div>
+  <span class="breathe"></span>
+<% end %>

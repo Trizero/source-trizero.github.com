@@ -1,0 +1,36 @@
+---
+people:
+  - name: Alessandro
+    surname: Airoldi
+    title: FileMaker developer
+    image: http://placehold.it/200x220
+
+  - name: Fabio
+    surname: Bosisio
+    title: FileMaker developer
+    image: http://placehold.it/200x220
+
+  - name: Giuseppe
+    surname: Longhi
+    title: Web developer
+    image: http://placehold.it/200x220
+
+  - name: Tecla
+    surname: Masserini
+    title: FileMaker developer
+    image: http://placehold.it/200x220
+
+  - name: Laura
+    surname: Milani
+    title: Graphic designer
+    image: http://placehold.it/200x220
+
+  - name: Andrea
+    surname: Parmeggiani
+    title: Graphic designer
+    image: http://placehold.it/200x220
+
+  - name: Fabio
+    surname: Polvara
+    title: FileMaker developer/CEO
+    image: http://placehold.it/200x220
