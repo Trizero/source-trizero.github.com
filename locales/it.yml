@@ -1,0 +1,30 @@
+---
+it:
+  realizziamo_soluzioni: 'Realizziamo <span class="text-success">soluzioni</span>'
+  
+  website: 'Website'
+  website_desc: 'Il tuo sito Internet sviluppato con le migliori tecnologie per rispondere al meglio alle tue esigienze.'
+  
+  gestionali: 'Gestionali'
+  gestionali_desc: 'Dal 2000 sviluppiamo software gestionali e <abbr title="Customer Relationship Management">CRM</abbr> sfruttando la potenza di <a href="http://www.filemaker.com/it/" target="_blank">FileMaker</a> adattandola elle esigienze dei nostri clienti.'
+
+  mobile: 'Mobile'
+  mobile_desc: 'Il tuo prodotto si muove con te per essere pronto a servirti quando ne hai bisogno. Ti basta utilizzare il tuo dispositivo <a href="http://www.apple.com/iphone/ios/" target="_blank">iOS</a> o <a href="http://www.android.com/" target="_blank">Android</a>.'
+
+  servizi: 'Servizi'
+  servizi_desc: 'Seguiamo i nostri clienti a 360&deg; fornendo numerosi servizi come newsletter, stampa di cd e promozione di siti Internet.'
+
+  il_team: 'Il team'
+
+  contattaci: 'Contattaci'
+  indirizzo: 'Indirizzo'
+  email: 'Email'
+  telefono: 'Telefono'
+  fax: 'Fax'
+
+  area_web_e_grafica: 'Area Web e Grafica'
+  area_gestionali: 'Area Gestionali'
+  assistenza_numero_verde: 'Assistenza <span class="label label-success">numero verde</span>'
+
+  aggiorna_il_browser: 'Aggiorna il browser!'
+  aggiorna_il_browser_desc: 'Stai usando un browser <strong>superato</strong>. Per favore <a href="http://browsehappy.com/">aggiorna il tuo browser</a> o <a href="http://www.google.com/chromeframe/?redirect=true">attiva Google Chrome Frame</a> Per una migliore esperienza.'

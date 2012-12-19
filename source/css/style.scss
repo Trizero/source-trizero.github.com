@@ -1,0 +1,179 @@
+@import "compass";
+
+body {
+  padding: 0;
+  overflow-y: scroll;
+  background: url('../img/debut_light.png');
+  font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+span.breathe {
+  display: block;
+  margin-bottom: 30px;
+
+  .breathe-strong {
+    margin-bottom: 100px;
+  }
+}
+
+header.hero-unit {
+  margin-bottom: 0;
+  background: {
+    image: url(../img/header.jpg);
+    size: cover;
+    position: 0% 100%;
+  }
+
+  @include experimental(animation-duration, 5s);
+  @include experimental(animation-name, slide);
+  
+  @include border-radius(0px);
+
+  h1 {
+    font-family: 'Text Me One', sans-serif;
+    color: white;
+
+    color: rgba(255, 255, 255, 0);
+    text-shadow: white 0px 0px 0px;
+
+    @include experimental(animation-duration, 2s);
+    @include experimental(animation-name, fadein);
+    @include experimental(animation-timing-function, linear);
+  }
+
+  small {
+    color: white;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .container-fluid {
+    padding {
+      left: 5px;
+      right: 5px;
+    }
+  }
+
+  header.hero-unit {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 980px) {
+  header.hero-unit {
+    padding-top: 130px;
+  }
+}
+
+@keyframes slide {
+  from {
+    background-position: 0% 0%;
+  }
+  to {
+    background-position: 0% 100%;
+  }
+}
+
+@-moz-keyframes slide {
+  from {
+    background-position: 0% 50%;
+  }
+  to {
+    background-position: 0% 100%;
+  }
+}
+
+@-webkit-keyframes slide {
+  from {
+    background-position: 0% 50%;
+  }
+  to {
+    background-position: 0% 100%;
+  }
+}
+
+@-ms-keyframes slide {
+  from {
+    background-position: 0% 50%;
+  }
+  to {
+    background-position: 0% 100%;
+  }
+}
+
+@-o-keyframes slide {
+  from {
+    background-position: 0% 50%;
+  }
+  to {
+    background-position: 0% 100%;
+  }
+}
+
+@keyframes fadein {
+  from {
+    text-shadow: white 0px 0px 40px;
+  }
+
+  to {
+    text-shadow: white 0px 0px 0px;
+  }
+}
+
+@-moz-keyframes fadein {
+  from {
+    text-shadow: white 0px 0px 40px;
+  }
+
+  to {
+    text-shadow: white 0px 0px 0px;
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    text-shadow: white 0px 0px 40px;
+  }
+
+  to {
+    text-shadow: white 0px 0px 0px;
+  }
+}
+
+@-ms-keyframes fadein {
+  from {
+    text-shadow: white 0px 0px 40px;
+  }
+
+  to {
+    text-shadow: white 0px 0px 0px;
+  }
+}
+
+@-o-keyframes fadein {
+  from {
+    text-shadow: white 0px 0px 40px;
+  }
+
+  to {
+    text-shadow: white 0px 0px 0px;
+  }
+}
+
+#map_canvas {
+  height: 300px;
+}
+
+.center {
+  text-align: center;
+}
+
+footer {
+  padding: 10px 0px;
+  width: 100%;
+  text-align: right;
+  & > span {
+    margin-right: 10px;
+  }
+}

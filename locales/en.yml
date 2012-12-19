@@ -1,0 +1,30 @@
+---
+en:
+  realizziamo_soluzioni: 'We build <span class="text-success">solutions</span>'
+  
+  website: 'Website'
+  website_desc: 'Your website developed with the best technologies to fit your needs.'
+  
+  gestionali: 'Management'
+  gestionali_desc: 'Since 2001 we build management software and <abbr title="Customer Relationship Management">CRM</abbr> on the solid basis of <a href="http://www.filemaker.com/it/" target="_blank">FileMaker</a>.'
+
+  mobile: 'Mobile'
+  mobile_desc: 'Your product always with you to help whenever you need. Just use your <a href="http://www.apple.com/iphone/ios/" target="_blank">iOS</a> or <a href="http://www.android.com/" target="_blank">Android</a> device.'
+
+  servizi: 'Services'
+  servizi_desc: 'We follow our costumers all the time giving them many services like newsletters, cd printing and website promotion.'
+
+  il_team: 'Our team'
+
+  contattaci: 'Contact us'
+  indirizzo: 'Address'
+  email: 'Email'
+  telefono: 'Telephone'
+  fax: 'Fax'
+
+  area_web_e_grafica: 'Web and Graphic Area'
+  area_gestionali: 'Management Software Area'
+  assistenza_numero_verde: 'Assistance <span class="label label-success">toll-free number</span>'
+
+  aggiorna_il_browser: 'Update your browser!'
+  aggiorna_il_browser_desc: 'You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.'
