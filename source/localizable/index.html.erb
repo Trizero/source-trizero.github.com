@@ -17,9 +17,9 @@
 
   </head>
 
-  <body>
+  <body itemscope itemtype="http://schema.org/Organization">
     <header class="hero-unit">
-      <h1><%= image_tag 'icon.ico' %>Trizero<sup><small><%= locales_links %></small></sup></h1>
+      <h1><%= image_tag 'icon.ico', itemprop: 'logo' %><span itemprop="name">Trizero</span><sup><small><%= locales_links %></small></sup></h1>
     </header>
 
     <!--[if lt IE 7]>
@@ -85,23 +85,23 @@
           <div id="map_canvas"></div>
           </div>
         </div>
-        <div class="span6">
+        <div class="span6" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
           <strong>TRIZERO srl</strong><br>
           <div class="row-fluid">
             <div class="span6">
               <address>
                 <dl>
                   <dt><%= I18n.t :indirizzo %></dt>
-                  <dd>Via Provinciale, 12 - 23851 Galbiate (LC)</dd>
+                  <dd><span itemprop="streetAddress">Via Provinciale, 12</span> - <span itemprop="postalCode">23851</span> <span itemprop="addressLocality">Galbiate</span> (<span itemprop="addressRegion">LC</span>)</dd>
 
                   <dt><%= I18n.t :email %></dt>
-                  <dd><a href="mailto:info@trizero.it">info@trizero.it</a></dd>
+                  <dd><a href="mailto:info@trizero.it" itemprop="email">info@trizero.it</a></dd>
 
                   <dt><%= I18n.t :telefono %></dt>
-                  <dd>+39 0341 541806</dd>
+                  <dd itemprop="telephone">+39 0341 541806</dd>
 
                   <dt><%= I18n.t :fax %></dt>
-                  <dd>+39 0341 241955</dd>
+                  <dd itemprop="faxNumber">+39 0341 241955</dd>
                 </dl>
               </address>
             </div>
