@@ -1,4 +1,4 @@
-<% people.sort {|x,y| x.surname <=> y.surname}.each_slice(4) do |row| %>
+<% people.sort {|x,y| "#{x.surname} #{x.name}" <=> "#{y.surname} #{y.name}"}.each_slice(4) do |row| %>
   <div class="row-fluid hidden-phone center">
     <% row.each do |person| %>
       <div class="span3" itemprop="employee" itemscope itemtype="http://schema.org/Person">
